@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon ball character info</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+    <div class="nav__bar--container">
+     <nav class="nav__bar">
+      <div class="nav__logo">
+        <figure>
+       <img class="logo__img" src="./assets/remove the backgroun2.png" alt="Logo">
+      </figure>
+    </div>
+       <div class="nav__links">
+        <a class="nav__bar--link" href="">Home</a>
+        <a class="nav__bar--link" href="">Find your character</a>
+        <a class="nav__bar--link" href="">Contact Us!</a>
+       </div>
+        <div class="content__wrapper">
+            <h1>Browse Characters</h1>
+            <div class="input__wrapper">
+                <input type="search"  id="search__input" placeholder="Search characters...">
+                <button id="search__btn">Search</button>
+            </div>
+        </div>
+    </div>
+  </nav>
+</div>
+
+
+
+</header>
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="character__list">
+                <div id="image-container" class="character__grid">
+                </div>
+                <!-- Modal for character info -->
+                <div id="character-modal" class="character-modal" style="display:none;">
+                  <div class="character-modal-content">
+                    <span id="close-modal" class="close-modal">&times;</span>
+                    <div id="modal-info"></div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
